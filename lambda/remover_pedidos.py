@@ -1,5 +1,6 @@
 import psycopg2
 import os
+from datetime import datetime
 
 def lambda_handler(event, context):
     # Configurações do banco de dados (substitua pelos valores reais)
